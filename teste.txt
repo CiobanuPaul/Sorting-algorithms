@@ -1,0 +1,1037 @@
+TEST 1
+N= 100
+Max= 1
+Min= 1
+
+Sortarea RADIXSORT, baza 8
+0.000215 sec
+0.0002 sec
+0.000197 sec
+0.000195 sec
+0.000195 sec
+Media geometrica: 0.0002002630291213402
+
+
+Sortarea RADIXSORT, baza 2^10
+0.173556 sec
+0.001034 sec
+0.175777 sec
+0.001027 sec
+0.001019 sec
+Media geometrica: 0.008011860323755636
+
+
+Sortarea RADIXSORT, baza 2^16
+0.246675 sec
+0.425451 sec
+0.244224 sec
+0.241612 sec
+0.423202 sec
+Media geometrica: 0.30456910527375614
+
+
+Sortarea MERGESORT
+0.000489 sec
+0.000464 sec
+0.000463 sec
+0.000463 sec
+0.000472 sec
+Media geometrica: 0.0004700955759387436
+
+
+Sortarea SHELLSORT
+0.000216 sec
+0.000211 sec
+0.000209 sec
+0.000225 sec
+0.000209 sec
+Media geometrica: 0.00021391550261570534
+
+
+Sortarea QUICKSORT, Mediana5
+1.6e-05 sec
+1.3e-05 sec
+1.3e-05 sec
+1.3e-05 sec
+1.3e-05 sec
+Media geometrica: 1.3551228811604862e-05
+
+
+Sortarea QUICKSORT, Mediana medianelor
+1.4e-05 sec
+1.3e-05 sec
+1.3e-05 sec
+1.3e-05 sec
+1.3e-05 sec
+Media geometrica: 1.319411572629011e-05
+
+
+Sortarea COUNTINGSORT
+5e-05 sec
+Media geometrica: 5e-05
+
+
+TEST 2
+N= 100
+Max= 100
+
+Sortarea RADIXSORT, baza 8
+0.000378 sec
+0.000366 sec
+0.000362 sec
+0.000362 sec
+0.000359 sec
+Media geometrica: 0.00036533972284719573
+
+
+Sortarea RADIXSORT, baza 2^10
+0.001209 sec
+0.00103 sec
+0.001029 sec
+0.001109 sec
+0.001034 sec
+Media geometrica: 0.0010800060716690534
+
+
+Sortarea RADIXSORT, baza 2^16
+0.245383 sec
+0.424759 sec
+0.24245 sec
+0.239298 sec
+0.421288 sec
+Media geometrica: 0.3028485380487605
+
+
+Sortarea MERGESORT
+0.000626 sec
+0.000589 sec
+0.000607 sec
+0.000584 sec
+0.00059 sec
+Media geometrica: 0.0005990025008256593
+
+
+Sortarea SHELLSORT
+0.000418 sec
+0.000395 sec
+0.000414 sec
+0.000395 sec
+0.000415 sec
+Media geometrica: 0.0004072712768410754
+
+
+Sortarea QUICKSORT, Mediana5
+0.000487 sec
+0.000455 sec
+0.000483 sec
+0.000456 sec
+0.000438 sec
+Media geometrica: 0.00046343122082734923
+
+
+Sortarea QUICKSORT, Mediana medianelor
+0.000587 sec
+0.000601 sec
+0.000585 sec
+0.000587 sec
+0.000599 sec
+Media geometrica: 0.000591761453736047
+
+
+Sortarea COUNTINGSORT
+0.000133 sec
+Media geometrica: 0.000133
+
+
+TEST 3
+N= 100
+Max= 10000
+
+Sortarea RADIXSORT, baza 8
+0.000553 sec
+0.000534 sec
+0.000534 sec
+0.000521 sec
+0.000533 sec
+Media geometrica: 0.0005349023618749835
+
+
+Sortarea RADIXSORT, baza 2^10
+0.001733 sec
+0.00156 sec
+0.00156 sec
+0.001621 sec
+0.001559 sec
+Media geometrica: 0.0016052230152119598
+
+
+Sortarea RADIXSORT, baza 2^16
+0.241839 sec
+0.424753 sec
+0.242603 sec
+0.238923 sec
+0.420533 sec
+Media geometrica: 0.30180289418097717
+
+
+Sortarea MERGESORT
+0.000618 sec
+0.000589 sec
+0.000584 sec
+0.000583 sec
+0.000596 sec
+Media geometrica: 0.0005938630252036037
+
+
+Sortarea SHELLSORT
+0.000393 sec
+0.000389 sec
+0.000386 sec
+0.000387 sec
+0.000386 sec
+Media geometrica: 0.00038819107412472244
+
+
+Sortarea QUICKSORT, Mediana5
+0.000464 sec
+0.000452 sec
+0.000442 sec
+0.000471 sec
+0.000449 sec
+Media geometrica: 0.0004554798684740504
+
+
+Sortarea QUICKSORT, Mediana medianelor
+0.0006 sec
+0.000612 sec
+0.000586 sec
+0.000583 sec
+0.00058 sec
+Media geometrica: 0.0005920786042026949
+
+
+Sortarea COUNTINGSORT
+0.004442 sec
+Media geometrica: 0.004442
+
+
+TEST 4
+N= 100
+Max= 100000000
+
+Sortarea RADIXSORT, baza 8
+0.000881 sec
+0.000872 sec
+0.00087 sec
+0.000863 sec
+0.00088 sec
+Media geometrica: 0.0008731744569457432
+
+
+Sortarea RADIXSORT, baza 2^10
+0.0021 sec
+0.002115 sec
+0.002113 sec
+0.002141 sec
+0.002119 sec
+Media geometrica: 0.002117558209619343
+
+
+Sortarea RADIXSORT, baza 2^16
+0.453375 sec
+0.453646 sec
+0.451046 sec
+0.450564 sec
+0.635344 sec
+Media geometrica: 0.4839853125571902
+
+
+Sortarea MERGESORT
+0.000607 sec
+0.00058 sec
+0.000579 sec
+0.000577 sec
+0.000576 sec
+Media geometrica: 0.000583685237051132
+
+
+Sortarea SHELLSORT
+0.000398 sec
+0.000405 sec
+0.000424 sec
+0.000392 sec
+0.000391 sec
+Media geometrica: 0.0004018216709035295
+
+
+Sortarea QUICKSORT, Mediana5
+0.000469 sec
+0.000453 sec
+0.000491 sec
+0.000485 sec
+0.000459 sec
+Media geometrica: 0.000471174081040815
+
+
+Sortarea QUICKSORT, Mediana medianelor
+0.000598 sec
+0.000606 sec
+0.000568 sec
+0.000579 sec
+0.000611 sec
+Media geometrica: 0.0005921727022402079
+
+
+Sortarea COUNTINGSORT
+49.940684 sec
+Media geometrica: 49.940684
+
+
+TEST 5
+N= 100
+Max= 100000000
+Min= 10000000
+
+Sortarea RADIXSORT, baza 8
+0.000934 sec
+0.000882 sec
+0.000892 sec
+0.000883 sec
+0.000883 sec
+Media geometrica: 0.0008945823896198301
+
+
+Sortarea RADIXSORT, baza 2^10
+0.002218 sec
+0.002176 sec
+0.002089 sec
+0.002068 sec
+0.002077 sec
+Media geometrica: 0.002124756569759876
+
+
+Sortarea RADIXSORT, baza 2^16
+0.498925 sec
+0.452094 sec
+0.447825 sec
+0.445907 sec
+0.443587 sec
+Media geometrica: 0.4572135459053356
+
+
+Sortarea MERGESORT
+0.000636 sec
+0.000596 sec
+0.000593 sec
+0.000593 sec
+0.000593 sec
+Media geometrica: 0.0006019681190270996
+
+
+Sortarea SHELLSORT
+0.000386 sec
+0.000379 sec
+0.000378 sec
+0.000385 sec
+0.000378 sec
+Media geometrica: 0.0003811835661493529
+
+
+Sortarea QUICKSORT, Mediana5
+0.000489 sec
+0.00045 sec
+0.000485 sec
+0.000456 sec
+0.00048 sec
+Media geometrica: 0.0004717303713956137
+
+
+Sortarea QUICKSORT, Mediana medianelor
+0.000602 sec
+0.000833 sec
+0.000591 sec
+0.000564 sec
+0.000572 sec
+Media geometrica: 0.0006253178431767392
+
+
+Sortarea COUNTINGSORT
+50.095545 sec
+Media geometrica: 50.095545
+
+
+TEST 6
+N= 10000
+Max= 1
+Min= 1
+
+Sortarea RADIXSORT, baza 8
+0.01751 sec
+0.017455 sec
+0.017289 sec
+0.01766 sec
+0.017656 sec
+Media geometrica: 0.017513452894330168
+
+
+Sortarea RADIXSORT, baza 2^10
+0.019381 sec
+0.019128 sec
+0.019205 sec
+0.019631 sec
+0.019344 sec
+Media geometrica: 0.019337029178118508
+
+
+Sortarea RADIXSORT, baza 2^16
+0.498084 sec
+0.262414 sec
+0.257884 sec
+0.440723 sec
+0.259825 sec
+Media geometrica: 0.32908806218837006
+
+
+Sortarea MERGESORT
+0.072007 sec
+0.071642 sec
+0.072751 sec
+0.073253 sec
+0.07274 sec
+Media geometrica: 0.07247630094592283
+
+
+Sortarea SHELLSORT
+0.056185 sec
+0.054269 sec
+0.055731 sec
+0.057187 sec
+0.056275 sec
+Media geometrica: 0.055921185750868845
+
+
+Sortarea QUICKSORT, Mediana5
+0.000957 sec
+0.000964 sec
+0.00096 sec
+0.000961 sec
+0.000956 sec
+Media geometrica: 0.0009595957082407001
+
+
+Sortarea QUICKSORT, Mediana medianelor
+0.00096 sec
+0.000964 sec
+0.000953 sec
+0.000958 sec
+0.000948 sec
+Media geometrica: 0.0009565837583558436
+
+
+Sortarea COUNTINGSORT
+0.003298 sec
+Media geometrica: 0.003298
+
+
+TEST 7
+N= 10000
+Max= 100
+
+Sortarea RADIXSORT, baza 8
+0.032754 sec
+0.032484 sec
+0.032503 sec
+0.032164 sec
+0.031963 sec
+Media geometrica: 0.032372405853942514
+
+
+Sortarea RADIXSORT, baza 2^10
+0.019397 sec
+0.019739 sec
+0.019695 sec
+0.019364 sec
+0.019415 sec
+Media geometrica: 0.019521340351118535
+
+
+Sortarea RADIXSORT, baza 2^16
+0.489978 sec
+0.282359 sec
+0.470869 sec
+0.263651 sec
+0.258557 sec
+Media geometrica: 0.33844866674128504
+
+
+Sortarea MERGESORT
+0.103989 sec
+0.102817 sec
+0.101216 sec
+0.101372 sec
+0.101887 sec
+Media geometrica: 0.10225102211169347
+
+
+Sortarea SHELLSORT
+0.113843 sec
+0.114342 sec
+0.114163 sec
+0.114418 sec
+0.115396 sec
+Media geometrica: 0.1144312176405606
+
+
+Sortarea QUICKSORT, Mediana5
+0.048372 sec
+0.047125 sec
+0.045314 sec
+0.048695 sec
+0.049325 sec
+Media geometrica: 0.04774477536524484
+
+
+Sortarea QUICKSORT, Mediana medianelor
+0.063343 sec
+0.062259 sec
+0.063259 sec
+0.062065 sec
+0.061629 sec
+Media geometrica: 0.06250733661609491
+
+
+Sortarea COUNTINGSORT
+0.00316 sec
+Media geometrica: 0.00316
+
+
+TEST 8
+N= 10000
+Max= 10000
+
+Sortarea RADIXSORT, baza 8
+0.047292 sec
+0.047128 sec
+0.047251 sec
+0.046957 sec
+0.047294 sec
+Media geometrica: 0.04718422399687548
+
+
+Sortarea RADIXSORT, baza 2^10
+0.02899 sec
+0.028593 sec
+0.028669 sec
+0.029128 sec
+0.028665 sec
+Media geometrica: 0.028808232888728837
+
+
+Sortarea RADIXSORT, baza 2^16
+0.495866 sec
+0.285989 sec
+0.488848 sec
+0.288085 sec
+0.272731 sec
+Media geometrica: 0.35255634146306397
+
+
+Sortarea MERGESORT
+0.103584 sec
+0.104599 sec
+0.104628 sec
+0.105047 sec
+0.105065 sec
+Media geometrica: 0.10458321071453017
+
+
+Sortarea SHELLSORT
+0.153924 sec
+0.149437 sec
+0.148268 sec
+0.147377 sec
+0.148671 sec
+Media geometrica: 0.149518033682369
+
+
+Sortarea QUICKSORT, Mediana5
+0.093537 sec
+0.0926 sec
+0.098731 sec
+0.094619 sec
+0.095825 sec
+Media geometrica: 0.09503881840453128
+
+
+Sortarea QUICKSORT, Mediana medianelor
+0.109763 sec
+0.108572 sec
+0.107165 sec
+0.108992 sec
+0.10804 sec
+Media geometrica: 0.10850286216328309
+
+
+Sortarea COUNTINGSORT
+0.012892 sec
+Media geometrica: 0.012892
+
+
+TEST 9
+N= 10000
+Max= 100000000
+
+Sortarea RADIXSORT, baza 8
+0.076843 sec
+0.076987 sec
+0.077221 sec
+0.07693 sec
+0.076993 sec
+Media geometrica: 0.0769946981678644
+
+
+Sortarea RADIXSORT, baza 2^10
+0.036553 sec
+0.036056 sec
+0.036525 sec
+0.233525 sec
+0.036117 sec
+Media geometrica: 0.052687448711541185
+
+
+Sortarea RADIXSORT, baza 2^16
+0.542434 sec
+0.534004 sec
+0.502368 sec
+0.482823 sec
+0.480914 sec
+Media geometrica: 0.5078713923449522
+
+
+Sortarea MERGESORT
+0.105599 sec
+0.104845 sec
+0.104551 sec
+0.104995 sec
+0.103802 sec
+Media geometrica: 0.10475674895682693
+
+
+Sortarea SHELLSORT
+0.164402 sec
+0.155259 sec
+0.155394 sec
+0.159578 sec
+0.158547 sec
+Media geometrica: 0.15860096839945922
+
+
+Sortarea QUICKSORT, Mediana5
+0.098698 sec
+0.093206 sec
+0.096116 sec
+0.095884 sec
+0.094179 sec
+Media geometrica: 0.09559818035703703
+
+
+Sortarea QUICKSORT, Mediana medianelor
+0.109081 sec
+0.109058 sec
+0.110743 sec
+0.110633 sec
+0.109415 sec
+Media geometrica: 0.10978345530137419
+
+
+Sortarea COUNTINGSORT
+50.853243 sec
+Media geometrica: 50.853243
+
+
+TEST 10
+N= 10000
+Max= 10000000
+Min= 1000000
+
+Sortarea RADIXSORT, baza 8
+0.069772 sec
+0.069969 sec
+0.06998 sec
+0.069712 sec
+0.070209 sec
+Media geometrica: 0.06992817940524537
+
+
+Sortarea RADIXSORT, baza 2^10
+0.036954 sec
+0.036566 sec
+0.036542 sec
+0.036276 sec
+0.036366 sec
+Media geometrica: 0.03654005780531699
+
+
+Sortarea RADIXSORT, baza 2^16
+0.537015 sec
+0.498923 sec
+0.477841 sec
+0.662961 sec
+0.486153 sec
+Media geometrica: 0.5285825973712034
+
+
+Sortarea MERGESORT
+0.103823 sec
+0.10377 sec
+0.103587 sec
+0.103939 sec
+0.103437 sec
+Media geometrica: 0.10371104715281515
+
+
+Sortarea SHELLSORT
+0.159588 sec
+0.155854 sec
+0.153324 sec
+0.154352 sec
+0.151967 sec
+Media geometrica: 0.1549951024198873
+
+
+Sortarea QUICKSORT, Mediana5
+0.096213 sec
+0.095129 sec
+0.094051 sec
+0.096697 sec
+0.0971 sec
+Media geometrica: 0.09583153998041993
+
+
+Sortarea QUICKSORT, Mediana medianelor
+0.109864 sec
+0.11047 sec
+0.113165 sec
+0.111073 sec
+0.111426 sec
+Media geometrica: 0.11119400839313806
+
+
+Sortarea COUNTINGSORT
+4.845084 sec
+Media geometrica: 4.845084
+
+
+TEST 11
+N= 1000000
+Max= 1000000
+
+Sortarea RADIXSORT, baza 8
+6.525222 sec
+6.332186 sec
+Media geometrica: 6.427979417771342
+
+
+Sortarea RADIXSORT, baza 2^10
+2.790064 sec
+2.739084 sec
+Media geometrica: 2.764456485708538
+
+
+Sortarea RADIXSORT, baza 2^16
+3.149145 sec
+3.137446 sec
+Media geometrica: 3.1432900571964404
+
+
+Sortarea MERGESORT
+9.276406 sec
+9.206589 sec
+Media geometrica: 9.241431568709146
+
+
+Sortarea SHELLSORT
+8.454614 sec
+8.443444 sec
+Media geometrica: 8.449027154093896
+
+
+Sortarea QUICKSORT, Mediana5
+12.176959 sec
+11.903525 sec
+Media geometrica: 12.039465763914734
+
+
+Sortarea QUICKSORT, Mediana medianelor
+12.676099 sec
+12.529353 sec
+Media geometrica: 12.602512409593057
+
+
+Sortarea COUNTINGSORT
+1.550334 sec
+1.565149 sec
+Media geometrica: 1.5577238875250004
+
+
+TEST 12
+N= 1000000
+Max= 1000000
+
+Sortarea RADIXSORT, baza 8
+6.390306 sec
+6.314626 sec
+Media geometrica: 6.352353297444656
+
+
+Sortarea RADIXSORT, baza 2^10
+2.706572 sec
+2.711128 sec
+Media geometrica: 2.708849042160895
+
+
+Sortarea RADIXSORT, baza 2^16
+3.202449 sec
+3.064833 sec
+Media geometrica: 3.1328854712576075
+
+
+Sortarea MERGESORT
+9.003601 sec
+9.05157 sec
+Media geometrica: 9.02755363891957
+
+
+Sortarea SHELLSORT
+13.922196 sec
+14.086187 sec
+Media geometrica: 14.003951453309599
+
+
+Sortarea QUICKSORT, Mediana5
+14.08879 sec
+14.102252 sec
+Media geometrica: 14.095519392880846
+
+
+Sortarea QUICKSORT, Mediana medianelor
+16.399269 sec
+16.861079 sec
+Media geometrica: 16.628570899246004
+
+
+Sortarea COUNTINGSORT
+1.564899 sec
+1.551746 sec
+Media geometrica: 1.558308622723368
+
+
+TEST 13
+N= 1000000
+Max= 100
+
+Sortarea RADIXSORT, baza 8
+3.240954 sec
+3.234892 sec
+Media geometrica: 3.237921581349369
+
+
+Sortarea RADIXSORT, baza 2^10
+1.820206 sec
+1.852666 sec
+Media geometrica: 1.8363642800915072
+
+
+Sortarea RADIXSORT, baza 2^16
+2.35434 sec
+2.118388 sec
+Media geometrica: 2.23325000927348
+
+
+Sortarea MERGESORT
+13.932389 sec
+13.846239 sec
+Media geometrica: 13.889247205481333
+
+
+Sortarea SHELLSORT
+16.808733 sec
+17.148265 sec
+Media geometrica: 16.97765024372469
+
+
+Sortarea QUICKSORT, Mediana5
+4.525504 sec
+4.941726 sec
+Media geometrica: 4.729038039591561
+
+
+Sortarea QUICKSORT, Mediana medianelor
+5.90331 sec
+5.85222 sec
+Media geometrica: 5.877709489945892
+
+
+Sortarea COUNTINGSORT
+0.337068 sec
+0.334352 sec
+Media geometrica: 0.33570725332646595
+
+
+TEST 14
+N= 1000000
+Max= 10000
+
+Sortarea RADIXSORT, baza 8
+5.255081 sec
+5.224008 sec
+Media geometrica: 5.239521465234015
+
+
+Sortarea RADIXSORT, baza 2^10
+2.981468 sec
+2.93502 sec
+Media geometrica: 2.9581528373902524
+
+
+Sortarea RADIXSORT, baza 2^16
+2.35209 sec
+2.590273 sec
+Media geometrica: 2.468310195370509
+
+
+Sortarea MERGESORT
+14.480781 sec
+14.471102 sec
+Media geometrica: 14.475940691045333
+
+
+Sortarea SHELLSORT
+40.185516 sec
+40.217926 sec
+Media geometrica: 40.20171773394535
+
+
+Sortarea QUICKSORT, Mediana5
+10.157625 sec
+9.694653 sec
+Media geometrica: 9.923439407741904
+
+
+Sortarea QUICKSORT, Mediana medianelor
+11.505886 sec
+11.232536 sec
+Media geometrica: 11.368389450880718
+
+
+Sortarea COUNTINGSORT
+0.42113 sec
+0.365483 sec
+Media geometrica: 0.39232111310761747
+
+
+TEST 15
+N= 1000000
+Max= 10000000
+
+Sortarea RADIXSORT, baza 8
+7.808085 sec
+7.81325 sec
+Media geometrica: 7.810667073064247
+
+
+Sortarea RADIXSORT, baza 2^10
+3.903112 sec
+3.822193 sec
+Media geometrica: 3.8624405969045013
+
+
+Sortarea RADIXSORT, baza 2^16
+3.630319 sec
+3.626052 sec
+Media geometrica: 3.628184872713627
+
+
+Sortarea MERGESORT
+14.57606 sec
+14.538459 sec
+Media geometrica: 14.557247359701627
+
+
+Sortarea SHELLSORT
+40.462961 sec
+40.366365 sec
+Media geometrica: 40.41463414045418
+
+
+Sortarea QUICKSORT, Mediana5
+14.306003 sec
+14.188779 sec
+Media geometrica: 14.247270438239635
+
+
+Sortarea QUICKSORT, Mediana medianelor
+15.79414 sec
+15.9116 sec
+Media geometrica: 15.852761211347378
+
+
+Sortarea COUNTINGSORT
+6.300922 sec
+5.876839 sec
+Media geometrica: 6.085187272841979
+
+
+TEST 16
+N= 10000000
+Max= 100000000
+Min= 10000000
+
+Sortarea RADIXSORT, baza 8
+90.517281 sec
+91.717159 sec
+Media geometrica: 91.11524490295068
+
+
+Sortarea RADIXSORT, baza 2^10
+34.861369 sec
+18.287658 sec
+Media geometrica: 25.249411749262638
+
+
+Sortarea RADIXSORT, baza 2^16
+15.7283 sec
+18.032852 sec
+Media geometrica: 16.84120263257942
+
+
+Sortarea MERGESORT
+75.55587 sec
+66.829066 sec
+Media geometrica: 71.05862525350051
+
+
+Sortarea SHELLSORT
+282.538938 sec
+278.359106 sec
+Media geometrica: 280.4412348280285
+
+
+Sortarea QUICKSORT, Mediana5
+75.903944 sec
+74.325063 sec
+Media geometrica: 75.11035494356602
+
+
+Sortarea QUICKSORT, Mediana medianelor
+74.358083 sec
+76.30399 sec
+Media geometrica: 75.32475304739584
+
+
+Sortarea COUNTINGSORT
+32.186138 sec
+26.031179 sec
+Media geometrica: 28.94551985362678
+
+
